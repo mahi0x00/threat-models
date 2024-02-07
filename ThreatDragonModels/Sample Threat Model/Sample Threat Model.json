@@ -39,7 +39,7 @@
           },
           {
             "position": {
-              "x": 596.9999999999998,
+              "x": 586.9999999999998,
               "y": 180
             },
             "size": {
@@ -76,8 +76,8 @@
           },
           {
             "position": {
-              "x": 606.9999999999998,
-              "y": 325
+              "x": 596.9999999999998,
+              "y": 315
             },
             "size": {
               "width": 80,
@@ -121,6 +121,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "AWS RDS"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -136,15 +139,15 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "AWS RDS",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isALog": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isSigned": false,
-              "storesCredentials": false,
+              "storesCredentials": true,
               "storesInventory": false,
               "threats": []
             }
